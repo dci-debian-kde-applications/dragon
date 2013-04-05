@@ -9,8 +9,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10),
  libphonon-dev
 Standards-Version: 3.9.3
 Homepage: http://www.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/audiocd-kio.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/audiocd-kio.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/dragon.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/dragon.git
 
 Package: dragonplayer
 Architecture: any
