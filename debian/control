@@ -13,6 +13,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/dragon.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/dragon.git
 
 Package: dragonplayer
+Section: video
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: simple video player
