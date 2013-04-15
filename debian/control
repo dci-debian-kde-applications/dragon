@@ -32,7 +32,7 @@ Package: dragonplayer-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kde-runtime-dbg
+Depends: ${misc:Depends}, dragonplayer (= ${binary:Version}), kde-runtime-dbg
 Breaks: kdemultimedia-dbg
 Replaces: kdemultimedia-dbg
 Description: debugging symbols for dragonplayer
