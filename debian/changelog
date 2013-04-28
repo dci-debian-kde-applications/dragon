@@ -1,9 +1,9 @@
-dragon (4:4.10.2-2) UNRELEASED; urgency=low
+dragon (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Make dragonplayer-dbg depend on the same dragonplayer version.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Apr 2013 10:38:36 +0200
+ -- Sune Vuorela <sune@debian.org>  Mon, 29 Apr 2013 00:54:14 +0200
 
 dragon (4:4.10.2-1) experimental; urgency=low
 
