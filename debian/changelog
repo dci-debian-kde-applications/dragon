@@ -1,6 +1,7 @@
 dragon (4:4.11.5-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 17:23:22 +0100
 
