@@ -2,12 +2,13 @@ Source: dragon
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11),
- libphonon-dev
+Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libphonon-dev,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/dragon.git
@@ -16,7 +17,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/dragon.git
 Package: dragonplayer
 Section: video
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: simple video player
  A video player with a different philosophy: Simple, uncluttered interface.
  .
@@ -33,7 +34,7 @@ Package: dragonplayer-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, dragonplayer (= ${binary:Version}), kde-runtime-dbg
+Depends: dragonplayer (= ${binary:Version}), kde-runtime-dbg, ${misc:Depends}
 Breaks: kdemultimedia-dbg
 Replaces: kdemultimedia-dbg
 Description: debugging symbols for dragonplayer
