@@ -1,8 +1,8 @@
-dragon (4:4.13.1-1~) UNRELEASED; urgency=medium
+dragon (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 14:06:42 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 14:22:19 +0200
 
 dragon (4:4.12.3-2) unstable; urgency=medium
 
