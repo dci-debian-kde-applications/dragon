@@ -1,9 +1,9 @@
-dragon (4:14.12.2-1~) UNRELEASED; urgency=medium
+dragon (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 16 Feb 2015 14:47:19 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 16 Feb 2015 15:04:26 +0100
 
 dragon (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
