@@ -9,9 +9,9 @@ Build-Depends: cmake,
                kdelibs5-dev,
                libphonon-dev,
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/dragon.git/
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/dragon.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/dragon.git
 
 Package: dragonplayer
@@ -32,8 +32,8 @@ Description: simple video player
 
 Package: dragonplayer-dbg
 Section: debug
-Architecture: any
 Priority: extra
+Architecture: any
 Depends: dragonplayer (= ${binary:Version}), kde-runtime-dbg, ${misc:Depends}
 Breaks: kdemultimedia-dbg
 Replaces: kdemultimedia-dbg
