@@ -1,3 +1,10 @@
+dragon (4:14.12.3-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_install-restricted.diff for notification to install
+    restricted extras
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Apr 2015 18:23:34 +0200
+
 dragon (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
