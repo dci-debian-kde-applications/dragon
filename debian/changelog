@@ -1,3 +1,11 @@
+dragon (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Fix kdelibs depends version. 
+  * Well ok unfix the kdelibs since CI is going to cry. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 15 May 2015 13:19:44 -0700
+
 dragon (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release 
