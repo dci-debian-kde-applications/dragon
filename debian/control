@@ -22,7 +22,8 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5windowsystem-dev,
                libkf5xmlgui-dev,
                libphonon4qt5-dev (>= 4.6.60~),
-               pkg-kde-tools (>= 0.12),
+               libphonon4qt5experimental-dev,
+               pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.3.0~)
 Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
@@ -41,17 +42,13 @@ Description: simple video player
   - Bundled with a simple web-page KPart.
   - Starts quickly.
  .
- This is the KDE 4 version of the Codeine video player.
- .
  This package is part of the KDE multimedia module.
 
 Package: dragonplayer-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: dragonplayer (= ${binary:Version}), kde-runtime-dbg, ${misc:Depends}
-Breaks: kdemultimedia-dbg
-Replaces: kdemultimedia-dbg
+Depends: dragonplayer (= ${binary:Version}), ${misc:Depends}
 Description: debugging symbols for dragonplayer
  This package contains debugging files used to investigate problems with
  dragonplayer.
