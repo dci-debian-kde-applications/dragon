@@ -1,21 +1,35 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: dragon
 Upstream-Contact: kde-multimedia@kde.org
 Source: ftp.kde.org
 
 Files: *
-Copyright 2003-2005 Max Howell <max.howell@methylblue.com>
-Copyright 2004 Melchior FRANZ - mfranz@kde.org
-Copyright 2005 Mark Kretschmann <kretschmann@kde.org>
-Copyright 2007 Christoph Pfister <christophpfister@gmail.com>
-Copyright 2007-2010 Ian Monroe <ian@monroe.nu>
-Copyright 2008-2009 David Edmundson <kde@davidedmundson.co.uk>
-Copyright 2009 Martin Sandsmark
-Copyright 2011 Geoffry Song <goffrie@gmail.com>
-Copyright 2012 Eike Hein <hein@kde.org>
-Copyright 2012 Harald Sitter <sitter@kde.org>
+Copyright: 2008-2009, David Edmundson <kde@davidedmundson.co.uk>
+           2012, Eike Hein <hein@kde.org>
+           2011, Geoffry Song <goffrie@gmail.com>
+           2012, Harald Sitter <sitter@kde.org>
+           2008, Ian Monroe <ian@monroe.nu>
+           2014, Lukáš Tinkl <lukas@kde.org>
+           2004-2005, Max Howell <max.howell@methylblue.com>
+License: GPL-2+3+KDEeV
 
+Files: COPYING
+       misc/dragonplayer.appdata.xml
+       src/app/analyzer/blockAnalyzer.cpp
+       src/app/analyzer/blockAnalyzer.h
+       src/app/analyzer/fht.cpp
+       src/app/analyzer/fht.h
+Copyright: 1989-1991, Free Software Foundation, Inc
+           2005, Mark Kretschmann <kretschmann@kde.org>
+           2003-2005, Max Howell <max.howell@methylblue.com>
+           2004, Melchior FRANZ <mfranz@kde.org>
 License: GPL-2+
-License: GPL-2+3+eV
+
+Files: doc/*
+Copyright: 2007, Ian A. Monroe <imonroe@kde.org>
+           2007, Ian Monroe <imonroe@kde.org>
+           2004, Max B. Howell <max.howell@methylblue.com>
+           2004, Mike Diehl <madpenguin8@yahoo.com>
 License: GFDL-NIV-1.2+
 
 Files: debian/*
