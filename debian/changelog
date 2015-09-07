@@ -1,11 +1,11 @@
-dragon (4:15.08.0-1~) UNRELEASED; urgency=medium
+dragon (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
   * New upstream release (15.04.2).
   * New upstream release (15.08.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 06 Sep 2015 17:10:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 00:43:08 +0200
 
 dragon (4:15.08.0-0ubuntu1) wily; urgency=medium
 
