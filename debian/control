@@ -43,14 +43,3 @@ Description: simple video player
   - Starts quickly.
  .
  This package is part of the KDE multimedia module.
-
-Package: dragonplayer-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: dragonplayer (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for dragonplayer
- This package contains debugging files used to investigate problems with
- dragonplayer.
- .
- This package is part of the KDE multimedia module.
