@@ -1,8 +1,11 @@
-dragon (4:15.12.2-1~) UNRELEASED; urgency=medium
+dragon (4:16.04.0-1~1.gbp7aeb9e) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @7aeb9eb1d25b44c0dd72a6a4cb5272b47b12a97d **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 10:11:54 +0100
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:06:12 +0200
 
 dragon (4:15.12.1-1) experimental; urgency=medium
 
