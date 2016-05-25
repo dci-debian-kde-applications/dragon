@@ -1,10 +1,6 @@
-dragon (4:16.04.1-1~1.gbp5c0440) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @5c0440619a33503a641d6035f2d42a84ad70678c **
+dragon (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @7aeb9eb1d25b44c0dd72a6a4cb5272b47b12a97d **
-
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
@@ -13,9 +9,8 @@ dragon (4:16.04.1-1~1.gbp5c0440) UNRELEASED; urgency=medium
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:06:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 00:35:23 +0200
 
 dragon (4:15.12.1-1) experimental; urgency=medium
 
