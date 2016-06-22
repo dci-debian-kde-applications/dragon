@@ -1,10 +1,8 @@
-dragon (4:16.04.2-1~1.gbpfa1cf4) UNRELEASED; urgency=medium
+dragon (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @fa1cf42056376664a6cf16d7c2bbf5f388e4fcca **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 01:06:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 20:56:57 +0200
 
 dragon (4:16.04.1-1) unstable; urgency=medium
 
