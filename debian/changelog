@@ -1,14 +1,22 @@
-dragon (4:16.04.1-0neon) xenial; urgency=medium
+dragon (4:16.04.2-1) unstable; urgency=medium
 
-  * New release
+  * New upstream release.
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:11:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 20:56:57 +0200
 
-dragon (4:15.12.2-1~) UNRELEASED; urgency=medium
+dragon (4:16.04.1-1) unstable; urgency=medium
 
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
   * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 10:11:54 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 00:35:23 +0200
 
 dragon (4:15.12.1-1) experimental; urgency=medium
 
