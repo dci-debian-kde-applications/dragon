@@ -1,11 +1,17 @@
-dragon (4:16.08.0-1~1.gbp085547) UNRELEASED; urgency=medium
+dragon (4:16.08.1-1~1.gbpc48396) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @c48396356d086444e827bbeb9fb1fb3efacc3ab4 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @0855472346a2c8ed4dc2102bfad63fb42e0131e9 **
 
   * UNRELEASED
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 01:06:11 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 01:06:35 +0200
 
 dragon (4:16.04.2-1) unstable; urgency=medium
 
