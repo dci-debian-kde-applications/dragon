@@ -37,6 +37,8 @@ Package: dragonplayer
 Section: video
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: simple video player
  A video player with a different philosophy: Simple, uncluttered interface.
  .
