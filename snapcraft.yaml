@@ -12,8 +12,8 @@ description: |-
 confinement: strict
 grade: stable
 apps:
-    kexi:
-        command: kf5-launch kexi
+    dragon:
+        command: kf5-launch dragon
         plugs:
         - kde-frameworks-5-plug
         - home
