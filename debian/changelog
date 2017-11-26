@@ -14,6 +14,7 @@ dragon (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Remove unused libkf5iconthemes-dev build dependency.
   * Remove unused dragon.install file.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Sep 2017 16:24:32 +0200
 
@@ -193,14 +194,14 @@ dragon (4:15.04.2-0ubuntu2) wily; urgency=medium
 dragon (4:15.04.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
-  * Fix kdelibs depends version. 
-  * Well ok unfix the kdelibs since CI is going to cry. 
+  * Fix kdelibs depends version.
+  * Well ok unfix the kdelibs since CI is going to cry.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 15 May 2015 13:19:44 -0700
 
 dragon (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release 
+  * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 11:59:45 -0700
 
